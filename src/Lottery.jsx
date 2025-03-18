@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { genTicket, sum } from "./Helper";
-import Ticket from "./Ticket"
-import Button from "./button";
+import Ticket from "./Ticket.jsx"
+import Button from "./Button.jsx";
 
 
 export default function Lottery({n = 3, winCondition}){
