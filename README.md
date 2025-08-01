@@ -1,12 +1,43 @@
-# React + Vite
+# 🎰 Lottery Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and fun lottery number matching game built using HTML, CSS, and JavaScript. Test your luck by clicking the "Try Your Luck" button!
 
-Currently, two official plugins are available:
+🌐 **Live Demo:**  
+👉 [lottery-game-sigma.vercel.app](https://lottery-game-sigma.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🕹️ How to Play
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Click the **"Try Your Luck"** button.
+2. The app randomly generates a lucky number.
+3. If it matches your number — you win! 🎉
+4. If not — try again!
+
+---
+
+## ✨ Features
+
+- 🎲 Random number generation
+- 🧠 Simple logic, instant feedback
+- 🎨 Clean and responsive UI
+- 📱 Works on mobile and desktop
+
+---
+
+## 🔧 Built With
+
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **Hosted on Vercel**
+
+---
+
+## 📁 Project Structure
+
+```plaintext
+📦 lottery-game/
+├── index.html       # Main HTML file
+├── style.css        # Stylesheet
+└── script.js        # Game logic
